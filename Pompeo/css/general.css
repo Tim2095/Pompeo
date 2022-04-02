@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1;
+}
+
+.main-heading {
+  font-size: 1.4rem;
+  color: #d77474;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.ready-to-shop-btn {
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  margin: 0 auto;
+}
+
+.main-heading-logo {
+  transform: translateY(-1rem);
+}

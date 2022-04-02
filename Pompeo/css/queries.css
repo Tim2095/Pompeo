@@ -1,0 +1,277 @@
+@media (max-width: 75em) {
+  .container {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  .store-content-all::after {
+    transform: translateX(-40%) rotate(-90deg);
+  }
+
+  .pottery-main-head {
+    font-size: 4.8rem;
+    font-weight: 600;
+  }
+
+  .pompeo-pottery-container {
+    grid-template-columns: 2fr 1.8fr;
+   
+  }
+
+  .
+}
+
+/* 980px*/
+@media (max-width: 61.25em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .golden-vase-img-box::after {
+    display: none;
+  }
+
+  .orange-vase-img-box::after {
+    display: none;
+  }
+
+  .pompeo-pottery-container {
+    grid-template-columns: 1fr;
+  }
+
+  .pottery-vase-img {
+    width: 50%;
+  }
+
+  .pottery-stone-collection {
+    justify-self: center;
+    
+  }
+
+  /* .store-content-all {
+    grid-template-columns: repeat(6, 1fr);
+  } */
+
+  .ceramic-pottery-box {
+    grid-template-columns: 1fr;
+  }
+
+  .orange-vase-img-box {
+    grid-row: 1;
+  }
+
+  .golden-vase {
+    width: 30%;
+  }
+
+  .orange-vase {
+    width: 30%;
+  }
+
+  .gold-black-pottery-box {
+    grid-template-columns: 1fr;
+  }
+
+  .golden-pottery-description,
+  .orange-pottery-description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem;
+  }
+
+  /* MOBILE NAVIGATION */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .header {
+    z-index: 99999999;
+  }
+
+  .main-nav {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  /* .main-heading-logo {
+    display: none;
+  } */
+
+  .pottery-main-head {
+    margin-bottom: 2rem;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+  }
+
+  .nav-stick-sign {
+    display: none;
+  }
+
+  .cart {
+    background-color: #e9ecef;
+    padding: 1.6rem 3.2rem;
+    border-radius: 5px;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+/* 704px */
+@media (max-width: 44em) {
+  .pottery-example {
+    margin-top: 7rem;
+  }
+
+  .porcelain-description {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .poreclain-description-text {
+    margin-top: 1.6rem;
+  }
+
+  .store-content-all {
+    grid-template-columns: 1fr;
+  }
+
+  .golden-pottery-description,
+  .orange-pottery-description {
+    padding: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .golden-org-pottery-description-text {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+/* 510px */
+@media (max-width: 31.8rem) {
+  .pottery-example-content {
+    padding: 0;
+  }
+
+  .gold-black-pottery-box,
+  .ceramic-pottery-box {
+    align-items: start;
+  }
+
+  .golden-org-pottery-head {
+    width: 100%;
+    text-align: left;
+  }
+
+  .golden-vase-img-box {
+    margin-top: 7rem;
+  }
+
+  .pompeo-pottery-container {
+    grid-template-columns: 1fr;
+  }
+
+  .pottery-vase-img {
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .pompeo-pottery-container {
+    padding-bottom: 10rem;
+  }
+
+
+  .vase-img::after {
+    width: 60%;
+    padding-bottom: 60%;
+  }
+  
+  .vase-img::before {
+    width: 70%;
+    padding-bottom: 70%; 
+  }
+
+  .mug-img::after {
+    width: 60%;
+    padding-bottom: 60%;
+  }
+  
+  .mug-img::before {
+    width: 70%;
+    padding-bottom: 70%;
+  }
+  .plate-img::after {
+    width: 60%;
+    padding-bottom: 60%;  
+  }
+  
+  .plate-img::before {
+    width: 70%;
+    padding-bottom: 70%;
+  }
+
+  .email-subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-subscribe input {
+    margin-bottom: 1.2rem;
+  }
+  
+  .btn-subscribe {
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-contact-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  } 
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+  
